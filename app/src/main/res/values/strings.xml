@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" translatable="false">HiMobile</string>
+    <string name="app_name" translatable="false">HiOSMobile</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Restaurant</string>
     <string name="title_notifications">Hotel</string>
@@ -74,7 +74,7 @@
 
     <!-- Updates Preferences -->
     <string name="updates_title">Check for Updates</string>
-    <string name="updates_summary">This Version: 2.1.3</string>
+    <string name="updates_summary">This Version: 2.1.4</string>
 
     <string name="whatsnew_title">What\'s New?</string>
 
@@ -92,7 +92,7 @@
     <string name="facebook_title">HiEnterprises™ Facebook Page</string>
     <string name="instagram_title">HiEnterprises™ Instagram Profile</string>
     <string name="instagram_summary">\@thehighlandcafe</string>
-    <string name="title_activity_help_center">HelpCenterActivity</string>
+    <string name="title_activity_help_center">Help</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
@@ -103,4 +103,10 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_helpcenter">helpcenterActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="securelogin_header">Secure Login</string>
+    <string name="internet_header">WiFi and Internet</string>
+
 </resources>

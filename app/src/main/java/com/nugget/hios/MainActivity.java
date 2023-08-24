@@ -92,7 +92,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public boolean help(MenuItem item) {
-        startActivity(new Intent(MainActivity.this, HelpActivity.class));
+        startActivity(new Intent(MainActivity.this, HelpcenterActivity.class));
         return true;
     }
 

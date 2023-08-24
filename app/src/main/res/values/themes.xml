@@ -35,6 +35,8 @@
         </item>
         <!--Dark status bar-->
         <item name="android:windowLightStatusBar">true</item>
+        <!--Modern popup box theming-->
+        <item name="popupMenuBackground">@drawable/custom_popup_background</item>
     </style>
     <!-- Base application theme. -->
     <style name="Base.Theme.HiOSMobile" parent="Theme.Material3.DayNight.NoActionBar">
