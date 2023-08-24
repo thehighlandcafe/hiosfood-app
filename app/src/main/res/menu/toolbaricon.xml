@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/moreVertical"
+        android:icon="@drawable/vertmore"
+        android:title="@string/title_more"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/topmenuSettings"
+                android:title="@string/title_activity_settings"
+                android:icon="@drawable/ic_settings"
+                android:onClick="settings" />
+
+            <item
+                android:id="@+id/topmenuHelp"
+                android:title="@string/title_activity_help"
+                android:icon="@drawable/ic_help"
+                android:onClick="help" />
+
+            <item
+            android:id="@+id/topmenuFeedback"
+            android:title="@string/title_activity_feedback"
+            android:icon="@drawable/ic_feedback"
+            android:onClick="feedback" />
+        </menu>
+    </item>
+</menu>

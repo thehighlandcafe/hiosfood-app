@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/supportMoreVertical"
+        android:icon="@drawable/vertmore"
+        android:title="@string/title_more"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/helpSupport"
+                android:title="@string/title_activity_support"
+                android:icon="@drawable/ic_support"
+                android:onClick="support" >
+            </item>
+        </menu>
+    </item>
+</menu>
