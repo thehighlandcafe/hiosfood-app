@@ -1,43 +1,26 @@
-package com.nugget.hios.ui.help;
-
-import androidx.lifecycle.ViewModelProvider;
+package com.nugget.hios.ui.preferences;
 
 import android.os.Bundle;
-
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.fragment.app.Fragment;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
+import androidx.annotation.NonNull;
+import androidx.fragment.app.Fragment;
+
 import com.nugget.hios.R;
-import com.nugget.hios.databinding.FragmentHelpBinding;
+import com.nugget.hios.databinding.FragmentRestauranthelpBinding;
 
-public class HelpFragment extends Fragment {
+public class AboutFragment extends Fragment {
 
-    private HelpViewModel mViewModel;
-    private FragmentHelpBinding binding;
+    private FragmentRestauranthelpBinding binding;
 
-    public static HelpFragment newInstance() {
-        return new HelpFragment();
-    }
+    public View onCreateView(@NonNull LayoutInflater inflater,
+                             ViewGroup container, Bundle savedInstanceState) {
 
-    @Override
-    public void onCreate(@Nullable Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        mViewModel = new ViewModelProvider(this).get(HelpViewModel.class);
-    }
-
-    @Nullable
-    @Override
-    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
-                             @Nullable Bundle savedInstanceState) {
-        binding = FragmentHelpBinding.inflate(inflater, container, false);
-
+        binding = FragmentRestauranthelpBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
         WebView webView = (WebView)root.findViewById(R.id.webView);
@@ -54,7 +37,7 @@ public class HelpFragment extends Fragment {
                 case Configuration .UI_MODE_NIGHT_YES:
                 case Configuration.UI_MODE_NIGHT_NO:
                 case Configuration.UI_MODE_NIGHT_UNDEFINED:
-                    WebSettingsCompat.setForceDark(webView.getSettings(), FORCE_DARK_ON);
+                    WebRestaurantCompat.setForceDark(webView.getRestaurant(), FORCE_DARK_ON);
                     break;
             }
         }*/
@@ -70,9 +53,14 @@ public class HelpFragment extends Fragment {
             }
         });
 
-        webView.loadUrl("https://thehighlandcafe.github.io/hiosmobile/help.html");
+        webView.loadUrl("https://thehighlandcafe.github.io/hiosmobile/about.html");
 
         return root;
     }
 
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+        binding = null;
+    }
 }

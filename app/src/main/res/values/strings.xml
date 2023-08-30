@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" translatable="false">HiOSMobile</string>
+    <string name="app_name" translatable="false">Harmony</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Restaurant</string>
     <string name="title_notifications">Hotel</string>
@@ -72,9 +72,13 @@
 
     <string name="websites_header">Websites</string>
 
+    <string name="about_app">About Harmony</string>
+
+    <string name="socials_header">Socials</string>
+
     <!-- Updates Preferences -->
     <string name="updates_title">Check for Updates</string>
-    <string name="updates_summary">This Version: 2.1.4.1</string>
+    <string name="updates_summary">This Version: 2.2</string>
 
     <string name="whatsnew_title">What\'s New?</string>
 

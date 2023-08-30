@@ -18,6 +18,15 @@
         android:theme="@style/Theme.HiOSMobile"
         tools:targetApi="31">
         <activity
+            android:name=".SettingsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_settings"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nugget.hios.MainActivity" />
+        </activity>
+        <activity
             android:name=".HelpcenterActivity"
             android:exported="false"
             android:label="@string/title_activity_help"
@@ -37,28 +46,10 @@
         </activity>
         <activity
             android:name=".FeedbackActivity"
-            android:windowSoftInputMode="adjustResize"
             android:exported="false"
             android:label="@string/title_activity_feedback"
-            android:screenOrientation="portrait">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.nugget.hios.MainActivity" />
-        </activity>
-        <activity
-            android:name=".HelpActivity"
-            android:exported="false"
-            android:label="@string/title_activity_help"
-            android:screenOrientation="portrait">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.nugget.hios.MainActivity" />
-        </activity>
-        <activity
-            android:name=".SettingsActivity"
-            android:exported="false"
-            android:label="@string/title_activity_settings"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.nugget.hios.MainActivity" />
