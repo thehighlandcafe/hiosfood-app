@@ -9,4 +9,20 @@
             android:data="@string/hienterprises_url" >
         </intent>
     </Preference>
+    <Preference
+        android:title="@string/thehighlandcafe_title"
+        app:icon="@drawable/ic_hienterprises" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="@string/thehighlandcafe_url" >
+        </intent>
+    </Preference>
+    <Preference
+        android:title="@string/hios_title"
+        app:icon="@drawable/ic_hienterprises" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="@string/hios_url">
+        </intent>
+    </Preference>
 </PreferenceScreen>

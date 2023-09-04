@@ -59,6 +59,9 @@
     <string name="support_url" translatable="false">https://sites.google.com/view/thehighlandcafe/customer-support</string>
     <string name="facebook_url">https://www.facebook.com/profile.php?id=100095224335357</string>
     <string name="instagram_url">https://www.instagram.com/thehighlandcafe/</string>
+    <string name="thehighlandcafe_url">https://sites.google.com/view/thcrestaurants</string>
+    <string name="hios_url">https://sites.google.com/view/hios-by-thc</string>
+    <string name="hiossocial_url">https://sites.google.com/view/hios-by-thc/hisocial</string>
 
     <string name="title_activity_settings">Settings</string>
     <string name="title_activity_help">Help</string>
@@ -86,11 +89,15 @@
     <string name="hiosmusic_title">HiMusic</string>
     <string name="hiosmusic_summary">This is our brilliant, free, music streaming platform. Your Music, Your Vibe.</string>
 
-    <string name="hiosweather_title">HiWeather</string>
-    <string name="hiosweather_summary">This is our weather app, which allows you to check the weather, use widgets and their matching live wallpaper, and more.</string>
+    <string name="hiosweather_title">Harmony Weather</string>
+    <string name="hiosweather_summary">This is our weather app, which simply allows you to check the weather, use widgets, and more.</string>
+
+    <string name="hiossocial_summary">Our brand new social media app, this app allows you to chat with friends, and more!</string>
 
     <!-- Websites Preferences -->
     <string name="hienterprises_title">HiEnterprises™ Website</string>
+    <string name="hios_title">HiOS™ Website</string>
+    <string name="thehighlandcafe_title">The Highland Cafe™ Website</string>
 
     <!-- Socials Preferences -->
     <string name="facebook_title">HiEnterprises™ Facebook Page</string>
