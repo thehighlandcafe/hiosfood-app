@@ -86,6 +86,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     //ONCLICK LISTENERS GOING TO PAGES ON TOOLBAR POPUP
+    public boolean securelogin(MenuItem item) {
+        startActivity(new Intent(MainActivity.this, SecureloginActivity.class));
+        return true;
+    }
+
     public boolean settings(MenuItem item) {
         startActivity(new Intent(MainActivity.this, SettingsActivity.class));
         return true;
