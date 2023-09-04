@@ -57,7 +57,7 @@ public class MoreFragment extends Fragment {
             }
         });*/
 
-        webView.loadUrl("https://thehighlandcafe.github.io/hiosmobile/message/social.html");
+        webView.loadUrl("https://discord.com/invite/tDhWymcC");
 
         return root;
     }
