@@ -96,6 +96,11 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
+    public boolean comingsoon(MenuItem item) {
+        startActivity(new Intent(MainActivity.this, ComingsoonActivity.class));
+        return true;
+    }
+
     public boolean help(MenuItem item) {
         startActivity(new Intent(MainActivity.this, HelpcenterActivity.class));
         return true;
