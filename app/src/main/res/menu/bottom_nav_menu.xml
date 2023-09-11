@@ -20,8 +20,8 @@
         android:icon="@drawable/ic_roomkey"
         android:title="@string/title_roomkey" />
 
-    <item
+    <!--item
         android:id="@+id/navigation_more"
         android:icon="@drawable/ic_social"
-        android:title="@string/title_more"/>
+        android:title="@string/title_more"/-->
 </menu>

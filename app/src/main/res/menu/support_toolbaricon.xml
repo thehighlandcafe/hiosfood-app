@@ -12,6 +12,11 @@
                 android:icon="@drawable/ic_support"
                 android:onClick="support" >
             </item>
+            <item
+                android:id="@+id/topmenuFeedback"
+                android:title="@string/title_activity_feedback"
+                android:icon="@drawable/ic_feedback"
+                android:onClick="feedback" />
         </menu>
     </item>
 </menu>

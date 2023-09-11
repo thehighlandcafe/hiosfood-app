@@ -14,6 +14,12 @@
                 android:onClick="securelogin" />
 
             <item
+                android:id="@+id/topmenuSocial"
+                android:title="@string/title_more"
+                android:icon="@drawable/ic_social"
+                android:onClick="social" />
+
+            <item
                 android:id="@+id/topmenuSettings"
                 android:title="@string/title_activity_settings"
                 android:icon="@drawable/ic_settings"
@@ -23,7 +29,7 @@
                 android:id="@+id/topmenuComingsoon"
                 android:title="@string/title_comingsoon"
                 android:icon="@drawable/ic_moreicon"
-                android:onclick="comingsoon" />
+                android:onClick="comingsoon" />
 
             <item
                 android:id="@+id/topmenuHelp"
@@ -31,11 +37,11 @@
                 android:icon="@drawable/ic_help"
                 android:onClick="help" />
 
-            <item
+            <!--item
             android:id="@+id/topmenuFeedback"
             android:title="@string/title_activity_feedback"
             android:icon="@drawable/ic_feedback"
-            android:onClick="feedback" />
+            android:onClick="feedback" /-->
         </menu>
     </item>
 </menu>

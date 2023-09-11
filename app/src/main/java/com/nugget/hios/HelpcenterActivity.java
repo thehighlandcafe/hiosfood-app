@@ -97,4 +97,9 @@ public class HelpcenterActivity extends AppCompatActivity implements
         startActivity(new Intent(HelpcenterActivity.this, SupportActivity.class));
         return true;
     }
+
+    public boolean feedback(MenuItem item) {
+        startActivity(new Intent(HelpcenterActivity.this, FeedbackActivity.class));
+        return true;
+    }
 }
