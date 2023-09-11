@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace 'com.nugget.hios'
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
         applicationId "com.nugget.hios"
@@ -33,17 +33,17 @@ android {
 }
 
 dependencies {
-    implementation 'androidx.appcompat:appcompat:1.6.0'
-    implementation "androidx.core:core:1.9.0"
-    implementation 'com.google.android.material:material:1.8.0-rc01'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation "androidx.core:core:1.12.0"
+    implementation 'com.google.android.material:material:1.11.0-alpha02'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
-    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.5.1'
-    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1'
-    implementation 'androidx.navigation:navigation-fragment:2.5.3'
-    implementation 'androidx.navigation:navigation-ui:2.5.3'
-    implementation 'androidx.preference:preference:1.2.0'
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.6.2'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2'
+    implementation 'androidx.navigation:navigation-fragment:2.7.2'
+    implementation 'androidx.navigation:navigation-ui:2.7.2'
+    implementation 'androidx.preference:preference:1.2.1'
     implementation 'org.imaginativeworld.oopsnointernet:oopsnointernet:2.0.0'
-    implementation 'androidx.webkit:webkit:1.5.0'
+    implementation 'androidx.webkit:webkit:1.8.0'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
