@@ -1,23 +1,20 @@
 package com.nugget.hios;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.Button;
-import android.widget.Toast;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
+
+import com.google.firebase.FirebaseApp;
 import com.nugget.hios.databinding.ActivityMainBinding;
 
 import org.imaginativeworld.oopsnointernet.callbacks.ConnectionCallback;
@@ -31,6 +28,9 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        //Initialize Firebase
+        FirebaseApp.initializeApp(this);
 
         // No Internet Dialog: Pendulum
         NoInternetDialogPendulum.Builder builder = new NoInternetDialogPendulum.Builder(
