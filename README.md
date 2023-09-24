@@ -1,7 +1,7 @@
 # HiOSMobile for Android
 
 <h2>Hi there!</h2>
-Welcome to the source code and official page for the HiOSMobile Android app by The Highland Cafe™! Enterprises<br>
+Welcome to the source code and official page for the HiOSMobile Android app by The Highland Cafe™ Enterprises!<br>
 <h2>What is HiOSMobile?</h2>
 HiOSMobile is the main app by The Highland Cafe™️ Enterprises for doing everything related to our brands, ranging from ordering food and looking at menus at The Highland Cafe™️ to booking a room or using the digital room key at one of our hotel brands.
 <h2>How to Install HiOSMobile by HiOS</h2>
