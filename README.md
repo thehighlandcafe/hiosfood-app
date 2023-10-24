@@ -14,9 +14,7 @@ HiOSMobile is the main app by The Highland Cafe™️ Enterprises for doing ever
 *Please note you require an internet connection to access all our services.
 
 <h2>What's New?</h2>
-Do you want to see what's new or get notified every time we update this app? Go to our website! <a href="https://sites.google.com/view/hios-by-thc/download">https://sites.google.com/view/hios-by-thc/download</a>
-<br><br>
-You can also see what's new by looking at the <a href="https://github.com/aarjay123/harmony/releases/latest">latest release</a> tab.
+You can see what's new by looking at the <a href="https://github.com/aarjay123/harmony/releases/latest">latest release</a> tab.
 
 <h2>Other Source Code</h2>
 - The source code for HiOSWebCore is here: <a href="https://github.com/thehighlandcafe/hiosmobile">HiOSWebCore Source Code</a>.<br><br>
