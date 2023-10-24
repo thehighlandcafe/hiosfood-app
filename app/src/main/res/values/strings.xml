@@ -3,6 +3,7 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Restaurant</string>
     <string name="title_notifications">Hotel</string>
+    <string name="title_rewards">Rewards</string>
     <string name="title_more">HiOSSocial</string>
     <string name="title_settings">Settings</string>
     <string name="title_roomkey">Room Key</string>
@@ -18,11 +19,12 @@
     <string name="updates_url" translatable="false">https://sites.google.com/view/hios-by-thc/download#h.51zx1qe3xfrl</string>
     <string name="whatsnew_url" translatable="false">https://sites.google.com/view/hios-by-thc/download#h.evwm3pfxwkdn</string>
     <string name="hiosmusic_url" translatable="false">https://sites.google.com/view/hios-by-thc/download-hiosmusic#h.ogr0r3hzljpf</string>
-    <string name="hiosweather_url" translatable="false">https://sites.google.com/view/hios-by-thc/download-hiosmusic#h.ogr0r3hzljpf</string>
+    <string name="hiosweather_url" translatable="false">https://sites.google.com/view/hios-by-thc/hiosweather#h.rynyo42t0yud</string>
     <string name="hienterprises_url" translatable="false">https://sites.google.com/view/thehighlandcafe</string>
     <string name="support_url" translatable="false">https://sites.google.com/view/thehighlandcafe/customer-support</string>
     <string name="facebook_url">https://www.facebook.com/profile.php?id=100095224335357</string>
     <string name="instagram_url">https://www.instagram.com/thehighlandcafe/</string>
+    <string name="threads_url">https://www.threads.net/@thehighlandcafe</string>
     <string name="thehighlandcafe_url">https://sites.google.com/view/thcrestaurants</string>
     <string name="hios_url">https://sites.google.com/view/hios-by-thc</string>
     <string name="hiossocial_url">https://sites.google.com/view/hios-by-thc/hisocial</string>
@@ -68,6 +70,7 @@
 
     <!-- Socials Preferences -->
     <string name="facebook_title">The Highland Cafe™ Enterprises Facebook Page</string>
+    <string name="threads_title">The Highland Cafe™ Enterprises Threads Profile</string>
     <string name="instagram_title">The Highland Cafe™ Enterprises Instagram Profile</string>
     <string name="instagram_summary">\@thehighlandcafe</string>
     <string name="title_activity_help_center">Help</string>

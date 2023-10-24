@@ -16,12 +16,12 @@
         android:title="@string/title_notifications" />
 
     <item
+        android:id="@+id/navigation_rewards"
+        android:icon="@drawable/new_rewards"
+        android:title="@string/title_rewards" />
+
+    <item
         android:id="@+id/navigation_settings"
         android:icon="@drawable/ic_roomkey"
         android:title="@string/title_roomkey" />
-
-    <!--item
-        android:id="@+id/navigation_more"
-        android:icon="@drawable/ic_social"
-        android:title="@string/title_more"/-->
 </menu>
