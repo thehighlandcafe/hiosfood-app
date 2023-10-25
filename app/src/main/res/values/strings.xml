@@ -18,6 +18,7 @@
     <!-- URLs -->
     <string name="updates_url" translatable="false">https://sites.google.com/view/hios-by-thc/download#h.51zx1qe3xfrl</string>
     <string name="whatsnew_url" translatable="false">https://sites.google.com/view/hios-by-thc/download#h.evwm3pfxwkdn</string>
+    <string name="notifications_url" translatable="false">https://whatsapp.com/channel/0029Va8U5lXISTkDAhk4bj3J</string>
     <string name="hiosmusic_url" translatable="false">https://sites.google.com/view/hios-by-thc/download-hiosmusic#h.ogr0r3hzljpf</string>
     <string name="hiosweather_url" translatable="false">https://sites.google.com/view/hios-by-thc/hiosweather#h.rynyo42t0yud</string>
     <string name="hienterprises_url" translatable="false">https://sites.google.com/view/thehighlandcafe</string>
@@ -53,13 +54,16 @@
 
     <!-- Updates Preferences -->
     <string name="updates_title">Check for Updates</string>
-    <string name="updates_summary">This Version: 2.2.2</string>
+    <string name="updates_summary">This Version: 2.2.2.1</string>
+
+    <string name="notifications_title">Update Notifications</string>
+    <string name="notifications_summary">Join our WhatsApp Channel to get notified every time we update HiOSMobile.</string>
 
     <string name="whatsnew_title">What\'s New?</string>
 
     <!-- Apps Preferences -->
     <string name="hiosweather_title">HiOSWeather</string>
-    <string name="hiosweather_summary">This is our weather app, which simply allows you to check the weather, use widgets, and more.</string>
+    <string name="hiosweather_summary">This is our weather app, which simply allows you to check the weather, use widgets, and more!</string>
 
     <string name="hiossocial_summary">Our brand new social media app, this app allows you to chat with friends, and more!</string>
 

@@ -12,6 +12,16 @@
     </Preference>
 
     <Preference
+        android:title="@string/notifications_title"
+        android:summary="@string/notifications_summary"
+        app:icon="@drawable/ic_notifications" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="@string/notifications_url">
+        </intent>
+    </Preference>
+
+    <Preference
         android:title="@string/whatsnew_title"
         app:icon="@drawable/ic_whatsnew" >
         <intent
