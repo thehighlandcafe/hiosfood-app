@@ -15,10 +15,10 @@
         android:icon="@drawable/ic_worsteastern"
         android:title="@string/title_notifications" />
 
-    <item
+    <!--item
         android:id="@+id/navigation_rewards"
         android:icon="@drawable/new_rewards"
-        android:title="@string/title_rewards" />
+        android:title="@string/title_rewards" /-->
 
     <item
         android:id="@+id/navigation_settings"
