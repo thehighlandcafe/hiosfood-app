@@ -1,7 +1,5 @@
 package com.nugget.hios.ui;
 
-import androidx.lifecycle.ViewModelProvider;
-
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -12,7 +10,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.WebView;
-import android.webkit.WebViewClient;
 
 import com.nugget.hios.R;
 import com.nugget.hios.databinding.FragmentSupportBinding;

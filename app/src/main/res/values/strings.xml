@@ -54,7 +54,7 @@
 
     <!-- Updates Preferences -->
     <string name="updates_title">Check for Updates</string>
-    <string name="updates_summary">This Version: 2.2.2.2</string>
+    <string name="updates_summary">This Version: 2.2.2.3</string>
 
     <string name="notifications_title">Update Notifications</string>
     <string name="notifications_summary">Join our WhatsApp Channel to get notified every time we update HiOSMobile.</string>

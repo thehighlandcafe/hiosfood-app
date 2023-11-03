@@ -24,12 +24,6 @@
         tools:layout="@layout/fragment_notifications" />
 
     <fragment
-        android:id="@+id/navigation_rewards"
-        android:name="com.nugget.hios.ui.RewardsFragment"
-        android:label="@string/title_rewards"
-        tools:layout="@layout/fragment_home" />
-
-    <fragment
         android:id="@+id/navigation_settings"
         android:name="com.nugget.hios.ui.settings.SettingsFragment"
         android:label="@string/title_roomkey"

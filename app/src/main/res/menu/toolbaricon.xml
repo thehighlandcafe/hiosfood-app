@@ -14,10 +14,10 @@
                 android:onClick="securelogin" />
 
             <item
-                android:id="@+id/topmenuSocial"
-                android:title="@string/title_more"
-                android:icon="@drawable/ic_social"
-                android:onClick="social" />
+                android:id="@+id/topmenuRewards"
+                android:title="@string/title_rewards"
+                android:icon="@drawable/new_rewards"
+                android:onClick="rewards" />
 
             <item
                 android:id="@+id/topmenuSettings"
