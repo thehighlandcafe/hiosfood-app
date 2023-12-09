@@ -70,7 +70,7 @@ public class FeedbackFragment extends Fragment {
             }
         });
 
-        webView.loadUrl("https://thehighlandcafe.github.io/hiosmobile/appfeedback.html");
+        webView.loadUrl("https://thehighlandcafe.github.io/hioswebcore/helpcenter/more/appfeedback.html");
 
         return root;
     }

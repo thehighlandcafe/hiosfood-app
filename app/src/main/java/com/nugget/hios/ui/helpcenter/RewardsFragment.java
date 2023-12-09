@@ -53,7 +53,7 @@ public class RewardsFragment extends Fragment {
             }
         });
 
-        webView.loadUrl("https://thehighlandcafe.github.io/hiosmobile/helpcenter/rewards.html");
+        webView.loadUrl("https://thehighlandcafe.github.io/hioswebcore/helpcenter/rewards.html");
 
         return root;
     }

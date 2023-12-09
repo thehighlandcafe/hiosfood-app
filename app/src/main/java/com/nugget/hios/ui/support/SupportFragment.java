@@ -70,7 +70,7 @@ public class SupportFragment extends Fragment {
             }
         });*/
 
-        webView.loadUrl("https://thehighlandcafe.github.io/hiosmobile/support.html");
+        webView.loadUrl("https://thehighlandcafe.github.io/hioswebcore/helpcenter/more/support.html");
 
         return root;
     }

@@ -70,7 +70,7 @@ public class SecureloginFragment extends Fragment {
             }
         });
 
-        webView.loadUrl("https://thehighlandcafe.github.io/hiosmobile/hiosunified/hiosunified.html");
+        webView.loadUrl("https://thehighlandcafe.github.io/hioswebcore/hiosunified/hiosunified.html");
 
         return root;
     }

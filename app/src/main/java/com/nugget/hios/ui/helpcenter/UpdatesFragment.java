@@ -53,7 +53,7 @@ public class UpdatesFragment extends Fragment {
             }
         });
 
-        webView.loadUrl("https://thehighlandcafe.github.io/hiosmobile/helpcenter/updates.html");
+        webView.loadUrl("https://thehighlandcafe.github.io/hioswebcore/helpcenter/updates.html");
 
         return root;
     }

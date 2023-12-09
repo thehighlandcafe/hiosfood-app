@@ -53,7 +53,7 @@ public class RoomkeyFragment extends Fragment {
             }
         });
 
-        webView.loadUrl("https://thehighlandcafe.github.io/hiosmobile/helpcenter/roomkey.html");
+        webView.loadUrl("https://thehighlandcafe.github.io/hioswebcore/helpcenter/roomkey.html");
 
         return root;
     }

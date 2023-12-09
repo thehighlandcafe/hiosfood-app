@@ -53,7 +53,7 @@ public class SecureloginFragment extends Fragment {
             }
         });
 
-        webView.loadUrl("https://thehighlandcafe.github.io/hiosmobile/helpcenter/securelogin.html");
+        webView.loadUrl("https://thehighlandcafe.github.io/hioswebcore/helpcenter/securelogin.html");
 
         return root;
     }

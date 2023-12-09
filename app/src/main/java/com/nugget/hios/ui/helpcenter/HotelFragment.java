@@ -53,7 +53,7 @@ public class HotelFragment extends Fragment {
             }
         });
 
-        webView.loadUrl("https://thehighlandcafe.github.io/hiosmobile/helpcenter/hotel.html");
+        webView.loadUrl("https://thehighlandcafe.github.io/hioswebcore/helpcenter/hotel.html");
 
         return root;
     }

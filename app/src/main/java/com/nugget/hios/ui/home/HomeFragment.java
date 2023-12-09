@@ -48,7 +48,7 @@ public class HomeFragment extends Fragment {
             }
         }*/
 
-        webView.loadUrl("https://thehighlandcafe.github.io/hiosmobile/welcome.html");
+        webView.loadUrl("https://thehighlandcafe.github.io/hioswebcore/welcome.html");
 
         return root;
     }

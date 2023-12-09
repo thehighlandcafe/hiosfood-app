@@ -96,11 +96,6 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
-    public boolean rewards(MenuItem item) {
-        startActivity(new Intent(MainActivity.this, RewardsActivity.class));
-        return true;
-    }
-
     public boolean settings(MenuItem item) {
         startActivity(new Intent(MainActivity.this, SettingsActivity.class));
         return true;

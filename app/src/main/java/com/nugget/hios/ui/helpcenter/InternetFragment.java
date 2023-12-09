@@ -53,7 +53,7 @@ public class InternetFragment extends Fragment {
             }
         });
 
-        webView.loadUrl("https://thehighlandcafe.github.io/hiosmobile/helpcenter/internet.html");
+        webView.loadUrl("https://thehighlandcafe.github.io/hioswebcore/helpcenter/internet.html");
 
         return root;
     }

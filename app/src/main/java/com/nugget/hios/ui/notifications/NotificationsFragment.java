@@ -60,7 +60,7 @@ public class NotificationsFragment extends Fragment {
             }
         });
 
-        webView.loadUrl("https://thehighlandcafe.github.io/hiosmobile/hotelactivities.html");
+        webView.loadUrl("https://thehighlandcafe.github.io/hioswebcore/hotelactivities.html");
 
         return root;
     }

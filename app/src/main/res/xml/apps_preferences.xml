@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+        app:title="@string/recommended">
+        <Preference
+            android:title="@string/hirewards_title"
+            android:summary="@string/hirewards_summary"
+            app:icon="@drawable/new_rewards" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/hirewards_url" >
+            </intent>
+        </Preference>
+    </PreferenceCategory>
     <Preference
         android:title="@string/hiosweather_title"
         android:summary="@string/hiosweather_summary"
@@ -8,16 +20,6 @@
         <intent
             android:action="android.intent.action.VIEW"
             android:data="@string/hiosweather_url" >
-        </intent>
-    </Preference>
-
-    <Preference
-        android:title="@string/title_more"
-        android:summary="@string/hiossocial_summary"
-        app:icon="@drawable/ic_hiossocial">
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="@string/hiossocial_url" >
         </intent>
     </Preference>
 </PreferenceScreen>

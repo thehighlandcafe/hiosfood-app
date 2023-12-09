@@ -57,7 +57,7 @@ public class SettingsFragment extends Fragment {
             }
         });
 
-        webView.loadUrl("https://thehighlandcafe.github.io/hiosmobile/roomkey/keymain.html");
+        webView.loadUrl("https://thehighlandcafe.github.io/hioswebcore/roomkey.html");
 
         return root;
     }

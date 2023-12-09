@@ -14,12 +14,6 @@
                 android:onClick="securelogin" />
 
             <item
-                android:id="@+id/topmenuRewards"
-                android:title="@string/title_rewards"
-                android:icon="@drawable/new_rewards"
-                android:onClick="rewards" />
-
-            <item
                 android:id="@+id/topmenuSettings"
                 android:title="@string/title_activity_settings"
                 android:icon="@drawable/ic_settings"
@@ -36,12 +30,6 @@
                 android:title="@string/title_activity_help"
                 android:icon="@drawable/ic_help"
                 android:onClick="help" />
-
-            <!--item
-            android:id="@+id/topmenuFeedback"
-            android:title="@string/title_activity_feedback"
-            android:icon="@drawable/ic_feedback"
-            android:onClick="feedback" /-->
         </menu>
     </item>
 </menu>

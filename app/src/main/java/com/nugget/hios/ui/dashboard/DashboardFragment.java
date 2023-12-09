@@ -93,7 +93,7 @@ public class DashboardFragment extends Fragment {
                 Toast.makeText(getActivity().getApplicationContext(), "Menu downloaded, please check your downloads folder", Toast.LENGTH_LONG).show();
             }});
 
-        webView.loadUrl("https://thehighlandcafe.github.io/hiosmobile/restaurant.html");
+        webView.loadUrl("https://thehighlandcafe.github.io/hioswebcore/restaurant.html");
 
         return root;
     }

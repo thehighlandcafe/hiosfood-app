@@ -53,7 +53,7 @@ public class MoreFragment extends Fragment {
             }
         });
 
-        webView.loadUrl("https://thehighlandcafe.github.io/hiosmobile/helpcenter/more.html");
+        webView.loadUrl("https://thehighlandcafe.github.io/hioswebcore/helpcenter/more.html");
 
         return root;
     }
