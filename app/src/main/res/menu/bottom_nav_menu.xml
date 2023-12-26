@@ -19,8 +19,4 @@
         android:id="@+id/navigation_settings"
         android:icon="@drawable/ic_roomkey"
         android:title="@string/title_roomkey" />
-
-    <item android:id="@+id/navigation_more"
-        android:icon="@drawable/ic_vertmore"
-        android:title="@string/title_more" />
 </menu>

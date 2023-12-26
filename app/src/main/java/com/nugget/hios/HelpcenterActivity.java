@@ -98,6 +98,11 @@ public class HelpcenterActivity extends AppCompatActivity implements
         return true;
     }
 
+    public boolean tc(MenuItem item) {
+        startActivity(new Intent(HelpcenterActivity.this, TcActivity.class));
+        return true;
+    }
+
     public boolean feedback(MenuItem item) {
         startActivity(new Intent(HelpcenterActivity.this, FeedbackActivity.class));
         return true;

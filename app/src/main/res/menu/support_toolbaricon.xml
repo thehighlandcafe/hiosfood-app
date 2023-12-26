@@ -10,8 +10,12 @@
                 android:id="@+id/helpSupport"
                 android:title="@string/title_activity_support"
                 android:icon="@drawable/ic_support"
-                android:onClick="support" >
-            </item>
+                android:onClick="support" />
+            <item
+                android:id="@+id/helpTc"
+                android:title="@string/title_activity_tc"
+                android:icon="@drawable/ic_tc"
+                android:onClick="tc" />
             <item
                 android:id="@+id/topmenuFeedback"
                 android:title="@string/title_activity_feedback"

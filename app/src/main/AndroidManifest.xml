@@ -29,15 +29,6 @@
         android:theme="@style/Theme.HiOSMobile"
         tools:targetApi="31">
         <activity
-            android:name=".RewardsActivity"
-            android:exported="false"
-            android:label="@string/title_rewards"
-            android:screenOrientation="portrait">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.nugget.hios.RewardsActivity" />
-        </activity>
-        <activity
             android:name=".SocialActivity"
             android:exported="false"
             android:label="@string/title_more"
@@ -97,6 +88,15 @@
             android:label="@string/title_activity_feedback"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustResize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nugget.hios.HelpcenterActivity" />
+        </activity>
+        <activity
+            android:name=".TcActivity"
+            android:exported="false"
+            android:label="@string/title_activity_tc"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.nugget.hios.HelpcenterActivity" />

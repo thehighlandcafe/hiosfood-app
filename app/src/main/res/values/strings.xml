@@ -38,7 +38,10 @@
     <string name="title_activity_settings">Settings</string>
     <string name="title_activity_help">Help</string>
     <string name="title_activity_feedback">Send Feedback</string>
+    <string name="title_activity_tc">Terms and Conditions</string>
     <string name="title_activity_support">Customer Support</string>
+
+    <string name="download_menus">Download Menus</string>
 
     <!-- Settings Titles -->
     <string name="updates_header">Updates</string>
@@ -57,7 +60,7 @@
 
     <!-- Updates Preferences -->
     <string name="updates_title">Check for Updates</string>
-    <string name="updates_summary">This Version: 2.4</string>
+    <string name="updates_summary">This Version: 2.3.1</string>
 
     <string name="notifications_title">Update Notifications</string>
     <string name="notifications_summary">Join our WhatsApp Channel to get notified every time we update HiOSMobile.</string>

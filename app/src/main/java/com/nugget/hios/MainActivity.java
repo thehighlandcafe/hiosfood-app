@@ -2,6 +2,7 @@ package com.nugget.hios;
 
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -13,6 +14,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.view.MenuCompat;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
@@ -86,6 +88,9 @@ public class MainActivity extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater menuInflater = getMenuInflater();
         menuInflater.inflate(R.menu.toolbaricon, menu);
+
+        MenuCompat.setGroupDividerEnabled(menu, true);
+
         return super.onCreateOptionsMenu(menu);
     }
 
@@ -97,6 +102,13 @@ public class MainActivity extends AppCompatActivity {
 
     public boolean securelogin(MenuItem item) {
         startActivity(new Intent(MainActivity.this, SecureloginActivity.class));
+        return true;
+    }
+
+    public boolean downloadmenus(MenuItem item) {
+        Uri uri = Uri.parse("https://www.dropbox.com/scl/fo/7gmlnnjcau1np91ee83ht/h?rlkey=ifj506k3aal7ko7tfecy8oqyq&dl=0");
+        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+        startActivity(intent);
         return true;
     }
 
