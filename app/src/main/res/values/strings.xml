@@ -4,7 +4,7 @@
     <string name="title_dashboard">Food</string>
     <string name="title_notifications">Hotel</string>
     <string name="title_rewards">Rewards</string>
-    <string name="title_more">HiOSSocial</string>
+    <string name="title_more">More</string>
     <string name="title_settings">Settings</string>
     <string name="title_roomkey">Room Key</string>
     <string name="title_comingsoon">Coming Soon</string>
@@ -57,7 +57,7 @@
 
     <!-- Updates Preferences -->
     <string name="updates_title">Check for Updates</string>
-    <string name="updates_summary">This Version: 2.3.1</string>
+    <string name="updates_summary">This Version: 2.4</string>
 
     <string name="notifications_title">Update Notifications</string>
     <string name="notifications_summary">Join our WhatsApp Channel to get notified every time we update HiOSMobile.</string>
