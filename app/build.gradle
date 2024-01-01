@@ -7,11 +7,11 @@ android {
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.nugget.hios"
+        applicationId "com.nugget.food"
         minSdk 24
         targetSdk 33
-        versionCode 2
-        versionName "2.3.1"
+        versionCode 1
+        versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -44,7 +44,6 @@ dependencies {
     implementation 'androidx.preference:preference:1.2.1'
     implementation 'org.imaginativeworld.oopsnointernet:oopsnointernet:2.0.0'
     implementation 'androidx.webkit:webkit:1.8.0'
-    implementation 'com.google.firebase:firebase-messaging:23.3.0'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'

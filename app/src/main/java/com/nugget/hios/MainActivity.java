@@ -20,7 +20,6 @@ import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
-import com.google.firebase.FirebaseApp;
 import com.nugget.hios.databinding.ActivityMainBinding;
 
 import org.imaginativeworld.oopsnointernet.callbacks.ConnectionCallback;
@@ -34,9 +33,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-        //Initialize Firebase
-        FirebaseApp.initializeApp(this);
 
         // No Internet Dialog: Pendulum
         NoInternetDialogPendulum.Builder builder = new NoInternetDialogPendulum.Builder(
@@ -76,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.navigation_home, R.id.navigation_dashboard, R.id.navigation_notifications, R.id.navigation_settings)
+                R.id.navigation_home, R.id.navigation_dashboard)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_activity_main);
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
@@ -95,15 +91,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     //ONCLICK LISTENERS GOING TO PAGES ON TOOLBAR POPUP
-    public boolean social(MenuItem item) {
-        startActivity(new Intent(MainActivity.this, SocialActivity.class));
-        return true;
-    }
-
-    public boolean securelogin(MenuItem item) {
-        startActivity(new Intent(MainActivity.this, SecureloginActivity.class));
-        return true;
-    }
 
     public boolean downloadmenus(MenuItem item) {
         Uri uri = Uri.parse("https://www.dropbox.com/scl/fo/7gmlnnjcau1np91ee83ht/h?rlkey=ifj506k3aal7ko7tfecy8oqyq&dl=0");
@@ -114,11 +101,6 @@ public class MainActivity extends AppCompatActivity {
 
     public boolean settings(MenuItem item) {
         startActivity(new Intent(MainActivity.this, SettingsActivity.class));
-        return true;
-    }
-
-    public boolean comingsoon(MenuItem item) {
-        startActivity(new Intent(MainActivity.this, ComingsoonActivity.class));
         return true;
     }
 

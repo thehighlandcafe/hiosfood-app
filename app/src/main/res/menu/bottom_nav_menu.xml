@@ -9,14 +9,4 @@
         android:id="@+id/navigation_dashboard"
         android:icon="@drawable/ic_restaurant"
         android:title="@string/title_dashboard" />
-
-    <item
-        android:id="@+id/navigation_notifications"
-        android:icon="@drawable/ic_worsteastern"
-        android:title="@string/title_notifications" />
-
-    <item
-        android:id="@+id/navigation_settings"
-        android:icon="@drawable/ic_roomkey"
-        android:title="@string/title_roomkey" />
 </menu>

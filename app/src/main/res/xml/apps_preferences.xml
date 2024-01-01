@@ -4,6 +4,14 @@
     <PreferenceCategory
         app:title="@string/recommended">
         <Preference
+            android:title="@string/hiosmobile_title"
+            android:summary="@string/hiosmobile_summary">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/hiosmobile_url">
+            </intent>
+        </Preference>
+        <Preference
             android:title="@string/hirewards_title"
             android:summary="@string/hirewards_summary"
             app:icon="@drawable/new_rewards" >
